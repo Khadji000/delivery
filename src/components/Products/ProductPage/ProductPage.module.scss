@@ -1,0 +1,56 @@
+.productPage {
+  margin-top: 5rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 300px 500px;
+  padding: 0rem 1rem;
+}
+
+.avatar {
+  max-height: 424px;
+  //   width: 700px;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.description {
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.priceBlock {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.priceCount {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.price {
+  button {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.count {
+  width: 200px;
+  font-size: 20px;
+  button {
+    width: 5rem;
+  }
+  display: flex;
+  justify-content: space-around;
+}

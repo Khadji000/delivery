@@ -1,0 +1,22 @@
+.product {
+  margin-right: 3rem;
+  margin-bottom: 2rem;
+}
+
+.cardHeader {
+  padding: 0px !important;
+}
+
+.price {
+  button {
+    width: 10rem;
+  }
+}
+.count {
+  font-size: 20px;
+  button {
+    width: 5rem;
+  }
+  display: flex;
+  justify-content: space-around;
+}

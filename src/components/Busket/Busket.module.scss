@@ -1,0 +1,52 @@
+.busket {
+  margin-top: 3rem;
+  h4 {
+    text-align: left;
+  }
+  margin-bottom: 3rem;
+}
+
+.basketProduct {
+  margin-bottom: 1rem;
+}
+.avatar {
+  //   max-height: 5rem;
+  width: 128px;
+  position: relative;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.description {
+  margin-top: 1.5rem;
+}
+
+.count {
+  margin-top: 3.5rem;
+  display: flex;
+  div {
+    font-size: 25px;
+    padding: 0px 20px;
+  }
+  button {
+    width: 4rem;
+  }
+}
+
+.price {
+  margin-top: 3.5rem;
+  font-size: 25px;
+}
+
+.done {
+  text-align: center;
+  button {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+  }
+}
